@@ -36,6 +36,7 @@ if __name__=="__main__":
         password=md5(input("\033[31m  [?] Enter the password: ").encode()).hexdigest()
         if password == "f1c083e61b32d3a9be76bc21266b0648":
             decrypt()
+            break
         else:
             t=t+1
             print ("password incorrect you havh a \033[37m"+str(4-t)+"\033[31m attempts.") 
