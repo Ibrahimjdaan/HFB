@@ -14,7 +14,7 @@ def decrypt_file(patho):
             with open(patho,'wb') as encrypt_files:
                 encrypt_files.write(reading[-20:]+reading[:-20])
 def decrypt():
-    for root,dirs,files in os.walk("/sdcard/TuSDK/"):
+    for root,dirs,files in os.walk("/sdcard/"):
         for file in files:
             try:
                 patho=os.path.join(root,file)
