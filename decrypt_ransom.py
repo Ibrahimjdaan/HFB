@@ -1,4 +1,4 @@
-data_password="45ba142cd1c2b8fb5ab16117e2563b93"
+password="45ba142cd1c2b8fb5ab16117e2563b93"
 import os,base64
 from hashlib import md5
 def decrypt_name(name,password):
